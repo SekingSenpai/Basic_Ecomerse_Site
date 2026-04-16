@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Gridlock Urban Apparel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <div class="logo">GRIDLOCK</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html" class="text-accent">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" class="cart-icon">
+          Cart
+          <span id="cart-count" style="display: none;">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">All Products</h1>
+    
+    <div class="grid-4">
+      <!-- Original Row -->
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1599839619722-39751411ea63?q=80&w=800&auto=format&fit=crop" alt="The Roadster Armored Flannel" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">The "Roadster" Armored Flannel</h2>
+          <div class="product-price">₹9500.00</div>
+          <p class="product-desc">Heavyweight flannel reinforced with abrasion-resistant lining.</p>
+          <button class="btn add-to-cart-btn" data-id="prod1" data-title="The Roadster Armored Flannel" data-price="9500.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop" alt="Midnight City Riding Jeans" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Midnight City Riding Jeans</h2>
+          <div class="product-price">₹6500.00</div>
+          <p class="product-desc">Slim-fit, stretch denim designed for maximum mobility.</p>
+          <button class="btn add-to-cart-btn" data-id="prod2" data-title="Midnight City Riding Jeans" data-price="6500.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1516762689617-e1cffcef479d?q=80&w=800&auto=format&fit=crop" alt="Perforated Leather Street Gloves" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Perforated Leather Street Gloves</h2>
+          <div class="product-price">₹3500.00</div>
+          <p class="product-desc">Premium cowhide leather with breathable perforations.</p>
+          <button class="btn add-to-cart-btn" data-id="prod3" data-title="Perforated Leather Street Gloves" data-price="3500.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop" alt="Gridlock Essential Logo Tee" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Gridlock Essential Logo Tee</h2>
+          <div class="product-price">₹1800.00</div>
+          <p class="product-desc">Our ultra-soft, 100% cotton crewneck featuring the minimalist Gridlock insignia.</p>
+          <button class="btn add-to-cart-btn" data-id="prod4" data-title="Gridlock Essential Logo Tee" data-price="1800.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Row 2: Footwear -->
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?q=80&w=800&auto=format&fit=crop" alt="Gridlock Retro High-Top Sneakers" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Gridlock Retro High-Tops</h2>
+          <div class="product-price">₹7200.00</div>
+          <p class="product-desc">Classic 80s aesthetics fused with modern urban performance.</p>
+          <button class="btn add-to-cart-btn" data-id="prod5" data-title="Gridlock Retro High-Tops" data-price="7200.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=800&auto=format&fit=crop" alt="Stealth Runner Kicks" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Stealth Runner Kicks</h2>
+          <div class="product-price">₹8500.00</div>
+          <p class="product-desc">Lightweight EVA foam and breathable mesh for the long commute.</p>
+          <button class="btn add-to-cart-btn" data-id="prod6" data-title="Stealth Runner Kicks" data-price="8500.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=800&auto=format&fit=crop" alt="Asphalt Commuter Boots" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Asphalt Commuter Boots</h2>
+          <div class="product-price">₹12000.00</div>
+          <p class="product-desc">Heavy-duty slip-resistant boots built for the concrete jungle.</p>
+          <button class="btn add-to-cart-btn" data-id="prod7" data-title="Asphalt Commuter Boots" data-price="12000.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop" alt="Urban Slip-On Canvas" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Urban Slip-On Canvas</h2>
+          <div class="product-price">₹2500.00</div>
+          <p class="product-desc">Easy on, easy off. Perfect for your daily local grind.</p>
+          <button class="btn add-to-cart-btn" data-id="prod8" data-title="Urban Slip-On Canvas" data-price="2500.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Row 3: Headwear -->
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop" alt="Gridlock Signature Snapback" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Gridlock Signature Snapback</h2>
+          <div class="product-price">₹1200.00</div>
+          <p class="product-desc">Classic flat-brim cap with an embroidered logo crest.</p>
+          <button class="btn add-to-cart-btn" data-id="prod9" data-title="Gridlock Signature Snapback" data-price="1200.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1576871337622-98d48d1cf531?q=80&w=800&auto=format&fit=crop" alt="Concrete Jungle Beanie" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Concrete Jungle Beanie</h2>
+          <div class="product-price">₹800.00</div>
+          <p class="product-desc">Keep warm during the winter subway rides. Woven acrylic.</p>
+          <button class="btn add-to-cart-btn" data-id="prod10" data-title="Concrete Jungle Beanie" data-price="800.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?q=80&w=800&auto=format&fit=crop" alt="Night Rider Bucket Hat" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Night Rider Bucket Hat</h2>
+          <div class="product-price">₹1500.00</div>
+          <p class="product-desc">360-degree shade and reflective piping for late nights.</p>
+          <button class="btn add-to-cart-btn" data-id="prod11" data-title="Night Rider Bucket Hat" data-price="1500.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=800&auto=format&fit=crop" alt="Vented District Cap" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Vented District Cap</h2>
+          <div class="product-price">₹1100.00</div>
+          <p class="product-desc">Lightweight runner's cap with side venting panels.</p>
+          <button class="btn add-to-cart-btn" data-id="prod12" data-title="Vented District Cap" data-price="1100.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Row 4: Outerwear -->
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop" alt="Metro Utility Anorak" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Metro Utility Anorak</h2>
+          <div class="product-price">₹9000.00</div>
+          <p class="product-desc">Water-resistant shell with an oversized kangaroo pouch.</p>
+          <button class="btn add-to-cart-btn" data-id="prod13" data-title="Metro Utility Anorak" data-price="9000.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop" alt="Gridlock Windbreaker" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Gridlock Windbreaker</h2>
+          <div class="product-price">₹6000.00</div>
+          <p class="product-desc">Packable, lightweight layer against city gusts.</p>
+          <button class="btn add-to-cart-btn" data-id="prod14" data-title="Gridlock Windbreaker" data-price="6000.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=800&auto=format&fit=crop" alt="Heavyweight Puffer Jacket" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Heavyweight Puffer Jacket</h2>
+          <div class="product-price">₹14500.00</div>
+          <p class="product-desc">Synthetic down alternative core for sub-zero urban environments.</p>
+          <button class="btn add-to-cart-btn" data-id="prod15" data-title="Heavyweight Puffer Jacket" data-price="14500.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop" alt="Armored Riding Hoodie" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Armored Riding Hoodie</h2>
+          <div class="product-price">₹8000.00</div>
+          <p class="product-desc">Soft fleece outer mixed with Kevlar-lined impact zones.</p>
+          <button class="btn add-to-cart-btn" data-id="prod16" data-title="Armored Riding Hoodie" data-price="8000.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Row 5: Bags & Accessories -->
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop" alt="Cybernetic Tech Fanny Pack" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Cybernetic Tech Fanny Pack</h2>
+          <div class="product-price">₹2800.00</div>
+          <p class="product-desc">Cross-body or waist wear. Waterproof zips.</p>
+          <button class="btn add-to-cart-btn" data-id="prod17" data-title="Cybernetic Tech Fanny Pack" data-price="2800.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=800&auto=format&fit=crop" alt="Tactical Sling Bag" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Tactical Sling Bag</h2>
+          <div class="product-price">₹4200.00</div>
+          <p class="product-desc">Molle webbing and hidden RFID-blocking pockets.</p>
+          <button class="btn add-to-cart-btn" data-id="prod18" data-title="Tactical Sling Bag" data-price="4200.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop" alt="Alloy Carabiner Keychain" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Alloy Carabiner Keychain</h2>
+          <div class="product-price">₹400.00</div>
+          <p class="product-desc">Matte black aerospace grade aluminum clip.</p>
+          <button class="btn add-to-cart-btn" data-id="prod19" data-title="Alloy Carabiner Keychain" data-price="400.00">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-panel product-card">
+        <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=800&auto=format&fit=crop" alt="Gridlock UV-400 Sunglasses" class="product-img">
+        <div class="product-info">
+          <h2 class="product-title">Gridlock UV-400 Sunglasses</h2>
+          <div class="product-price">₹3200.00</div>
+          <p class="product-desc">Polarized lenses with a sleek rimless visor design.</p>
+          <button class="btn add-to-cart-btn" data-id="prod20" data-title="Gridlock UV-400 Sunglasses" data-price="3200.00">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="logo" style="font-size: 1.2rem;">GRIDLOCK</div>
+        <div class="social-links">
+          <a href="#">IG</a>
+          <a href="#">TW</a>
+          <a href="#">FB</a>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 Gridlock Urban Apparel. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

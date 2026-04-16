@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart | Gridlock Urban Apparel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <div class="logo">GRIDLOCK</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" class="cart-icon text-accent">
+          Cart
+          <span id="cart-count" style="display: none;">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">Your Cart</h1>
+    
+    <div class="cart-layout">
+      <div class="glass-panel cart-items" style="padding: 20px;">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody id="cart-items-container">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="glass-panel cart-summary">
+        <h2 style="margin-bottom: 25px; text-transform: uppercase;">Order Summary</h2>
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">₹0.00</span>
+        </div>
+        <div class="summary-row">
+          <span>Shipping Fee</span>
+          <span>₹500.00</span>
+        </div>
+        <div class="summary-total">
+          <span>Total</span>
+          <span id="cart-total">₹0.00</span>
+        </div>
+        <button class="btn" id="checkout-btn" disabled onclick="alert('Proceeding to checkout...');">Proceed to Checkout</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="logo" style="font-size: 1.2rem;">GRIDLOCK</div>
+        <div class="social-links">
+          <a href="#">IG</a>
+          <a href="#">TW</a>
+          <a href="#">FB</a>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 Gridlock Urban Apparel. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
